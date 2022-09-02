@@ -7,7 +7,7 @@ def count_batteries_by_usage(cycles):
             low+=1
         elif 400<i<919:
             medium+=1
-        elif i>920:
+        elif i>=920:
             high+=1
         else:
             print("Enter a valid input")
